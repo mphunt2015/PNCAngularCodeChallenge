@@ -1,2 +1,2 @@
 # PNCAngularCodeChallenge
-Repository for completing the 2-hour coding challenge for the Lead Angular Developer role with PNC Bank.
+ The challenge will take place Monday August 18, 2025 starting at 11am EST.
