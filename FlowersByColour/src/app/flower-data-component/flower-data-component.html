@@ -1,1 +1,12 @@
-<p>flower-data-component works!</p>
+<button (click)="filterByAll()">All</button>
+<button (click)="filterByRed()">Red</button>
+<button (click)="filterByGreen()">Green</button>
+<button (click)="filterByBlue()">Blue</button>
+
+<ul>
+  @for (photo of photos; track photo.name) {
+  <li>{{ getPhotoURL(photo) }}</li>
+  } @empty {
+  <li>There are no items.</li>
+  }
+</ul>
