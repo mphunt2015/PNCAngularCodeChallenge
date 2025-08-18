@@ -10,5 +10,11 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
     provideHttpClient(),
-  ]
+  ],
+};
+
+// In a production project, you would typically store the API key in a more secure way.
+export const apiKeyData = {
+  production: false,
+  apiKey: "a5e95177da353f58113fd60296e1d250"
 };
